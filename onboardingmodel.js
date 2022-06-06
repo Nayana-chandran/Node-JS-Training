@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const OnboardingSchema = new mongoose.Schema({
   uuid: {
     type: String,

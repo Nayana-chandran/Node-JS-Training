@@ -46,7 +46,7 @@ app.get('/fetch-onboarding-data', async (req, res) => {
 
 
 mongoose.connect(
-    "mongodb+srv://contusmyndev:vulmnccdtPBiQxtc@clustermyn.nbyfa.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://contusmyndev:vulmnccdtPBiQxtc@clustermyn.nbyfa.mongodb.net/?retryWrites=true&w=majority", // ur mongodb cluter connection
     {
       useNewUrlParser: true,
     //   useFindAndModify: false,

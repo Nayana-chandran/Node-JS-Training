@@ -5,8 +5,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const port = 3010;
-const userModel = require("./dbmodel/model");
-const Onboarding = require("./dbmodel/onboardingmodel");
+const userModel = require("./model");
+const Onboarding = require("./onboardingmodel");
 const mongoose = require("mongoose");
 
 app.get('/', (req, res) => {
